@@ -17,6 +17,8 @@ def main():
                 pygame.quit()
                 return
 
+        player.update(dt)
+
         screen.fill(pygame.Color(0, 0, 0))
 
         player.draw(screen)
